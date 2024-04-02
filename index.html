@@ -8,43 +8,54 @@
     <title>Document</title>
 </head>
 
+<header>Wage and Housing Calculator</header>
+
 <body>
-    <h1>Wage and Housing Calculator</h1>
 
-    <div class="box" id="box1"> <label for="hourly-wage">Hourly Wage:</label>
-        <input type="text" id="hourly-wage">
 
-        <label for="monthly-expense">Monthly Expenses:</label>
-        <input type="text" id="monthly-expense">
+    <div class="container">
+        <div class="inner-container">
+            <div class="label"> <label for="hourly-wage">Hourly Wage:</label>
+                <input type="text" id="hourly-wage">
+            </div>
+            <div>
+                <label class="label" for="monthly-expense">Monthly Expenses:</label>
+                <input type="text" id="monthly-expense">
+            </div>
+        </div>
+
+        <div class="inner-container">
+
+            <div class="label"> <label for="hours-worked">Hours Worked Weekly:</label>
+                <input type="text" id="hours-worked">
+            </div>
+
+            <div>
+                <label class="label" for="choose-area">Neighborhood:</label>
+                <select for="">
+                    <option value="Apollo Beach">Apollo Beach</option>
+                    <option value="Brandon">Brandon</option>
+                    <option value="Carrollwood">Carrollwood</option>
+                    <option value="Citrus Park">Citrus Park</option>
+                    <option value="Lutz">Lutz</option>
+                    <option value="Northdale">Northdale</option>
+                    <option value="South Tampa">South Tampa</option>
+                    <option value="Temple Terrace">Temple Terrace</option>
+                    <option value="Westchase">Westchase</option>
+                    <option value="Wesley Chapel">Wesley Chapel</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="inner-container">
+            <div class="output-info">
+                <div> <label for="Monthly Wages">Monthly Wages:</label><span>info</span></div>
+                <div> <label for="Monthly Expenses">Monthly Expenses:</label><span>info</span></div>
+                <div> <label for="Net Income">Net Income:</label><span>info</span></div>
+                <div> <label for="Neighborhood">Neighborhood:</label><span>info</span></div>
+            </div>
+        </div>
     </div>
-    <div class="box" id="box2">
-
-        <label for="hours-worked">Hours Worked Weekly:</label>
-        <input type="text" id="hours-worked">
-
-        <label for="choose-area">Neighborhood:</label>
-        <select for="">
-            <option value="Apollo Beach">Apollo Beach</option>
-            <option value="Brandon">Brandon</option>
-            <option value="Carrollwood">Carrollwood</option>
-            <option value="Citrus Park">Citrus Park</option>
-            <option value="Lutz">Lutz</option>
-            <option value="Northdale">Northdale</option>
-            <option value="South Tampa">South Tampa</option>
-            <option value="Temple Terrace">Temple Terrace</option>
-            <option value="Westchase">Westchase</option>
-            <option value="Wesley Chapel">Wesley Chapel</option>
-        </select>
-
-    </div>
-
-    <div class="ouptut">
-        <label for="Monthly Wages">Monthly Wages:</label>
-        <label for="Monthly Expenses">Monthly Expenses:</label>
-        <label for="Net Income">Net Income:</label>
-        <label for="Neighborhood">Neighborhood:</label>
-    </div>
-
 </body>
 
 
