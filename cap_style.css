@@ -1,5 +1,36 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  padding-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+box1 {
+  padding: 20px;
+  margin: 20px;
+}
+
 body {
   height: 100vh;
   align-items: center;
   background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+#input {
+  display: flex;
+  align-items: left;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
 }
