@@ -5,12 +5,12 @@
 header {
   font-size: 50px;
   text-align: center;
+  border: 2px solid white;
 }
 
 .container {
   display: flex;
   border: 2px solid white;
-  height: 50%;
 }
 
 .inner-container {
@@ -20,6 +20,10 @@ header {
   padding: 20px;
   margin: 20px;
   width: 30%;
+}
+
+.container .inner-container .input-info {
+  height: 30%;
 }
 
 span {
@@ -47,9 +51,13 @@ select {
 body {
   height: 100vh;
   align-items: center;
+  border: 2px solid white;
   background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 
+button {
+  margin: 10px;
+}
 h1 {
   text-align: center;
 }
